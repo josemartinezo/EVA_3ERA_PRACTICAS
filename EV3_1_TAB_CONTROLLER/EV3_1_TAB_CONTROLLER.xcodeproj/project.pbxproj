@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29F573461EB2500200E6D264 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F573451EB2500200E6D264 /* AppDelegate.swift */; };
+		29F573481EB2500200E6D264 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F573471EB2500200E6D264 /* ViewController.swift */; };
+		29F5734B1EB2500200E6D264 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29F573491EB2500200E6D264 /* Main.storyboard */; };
+		29F5734D1EB2500200E6D264 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29F5734C1EB2500200E6D264 /* Assets.xcassets */; };
+		29F573501EB2500200E6D264 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29F5734E1EB2500200E6D264 /* LaunchScreen.storyboard */; };
+		29F5735B1EB2500200E6D264 /* EV3_1_TAB_CONTROLLERTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F5735A1EB2500200E6D264 /* EV3_1_TAB_CONTROLLERTests.swift */; };
+		29F573661EB2500200E6D264 /* EV3_1_TAB_CONTROLLERUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F573651EB2500200E6D264 /* EV3_1_TAB_CONTROLLERUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29F573571EB2500200E6D264 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29F5733A1EB2500200E6D264 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29F573411EB2500200E6D264;
+			remoteInfo = EV3_1_TAB_CONTROLLER;
+		};
+		29F573621EB2500200E6D264 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29F5733A1EB2500200E6D264 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29F573411EB2500200E6D264;
+			remoteInfo = EV3_1_TAB_CONTROLLER;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29F573421EB2500200E6D264 /* EV3_1_TAB_CONTROLLER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EV3_1_TAB_CONTROLLER.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29F573451EB2500200E6D264 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		29F573471EB2500200E6D264 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		29F5734A1EB2500200E6D264 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29F5734C1EB2500200E6D264 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29F5734F1EB2500200E6D264 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29F573511EB2500200E6D264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29F573561EB2500200E6D264 /* EV3_1_TAB_CONTROLLERTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EV3_1_TAB_CONTROLLERTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29F5735A1EB2500200E6D264 /* EV3_1_TAB_CONTROLLERTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EV3_1_TAB_CONTROLLERTests.swift; sourceTree = "<group>"; };
+		29F5735C1EB2500200E6D264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29F573611EB2500200E6D264 /* EV3_1_TAB_CONTROLLERUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EV3_1_TAB_CONTROLLERUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29F573651EB2500200E6D264 /* EV3_1_TAB_CONTROLLERUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EV3_1_TAB_CONTROLLERUITests.swift; sourceTree = "<group>"; };
+		29F573671EB2500200E6D264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29F5733F1EB2500200E6D264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29F573531EB2500200E6D264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29F5735E1EB2500200E6D264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29F573391EB2500200E6D264 = {
+			isa = PBXGroup;
+			children = (
+				29F573441EB2500200E6D264 /* EV3_1_TAB_CONTROLLER */,
+				29F573591EB2500200E6D264 /* EV3_1_TAB_CONTROLLERTests */,
+				29F573641EB2500200E6D264 /* EV3_1_TAB_CONTROLLERUITests */,
+				29F573431EB2500200E6D264 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29F573431EB2500200E6D264 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29F573421EB2500200E6D264 /* EV3_1_TAB_CONTROLLER.app */,
+				29F573561EB2500200E6D264 /* EV3_1_TAB_CONTROLLERTests.xctest */,
+				29F573611EB2500200E6D264 /* EV3_1_TAB_CONTROLLERUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29F573441EB2500200E6D264 /* EV3_1_TAB_CONTROLLER */ = {
+			isa = PBXGroup;
+			children = (
+				29F573451EB2500200E6D264 /* AppDelegate.swift */,
+				29F573471EB2500200E6D264 /* ViewController.swift */,
+				29F573491EB2500200E6D264 /* Main.storyboard */,
+				29F5734C1EB2500200E6D264 /* Assets.xcassets */,
+				29F5734E1EB2500200E6D264 /* LaunchScreen.storyboard */,
+				29F573511EB2500200E6D264 /* Info.plist */,
+			);
+			path = EV3_1_TAB_CONTROLLER;
+			sourceTree = "<group>";
+		};
+		29F573591EB2500200E6D264 /* EV3_1_TAB_CONTROLLERTests */ = {
+			isa = PBXGroup;
+			children = (
+				29F5735A1EB2500200E6D264 /* EV3_1_TAB_CONTROLLERTests.swift */,
+				29F5735C1EB2500200E6D264 /* Info.plist */,
+			);
+			path = EV3_1_TAB_CONTROLLERTests;
+			sourceTree = "<group>";
+		};
+		29F573641EB2500200E6D264 /* EV3_1_TAB_CONTROLLERUITests */ = {
+			isa = PBXGroup;
+			children = (
+				29F573651EB2500200E6D264 /* EV3_1_TAB_CONTROLLERUITests.swift */,
+				29F573671EB2500200E6D264 /* Info.plist */,
+			);
+			path = EV3_1_TAB_CONTROLLERUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29F573411EB2500200E6D264 /* EV3_1_TAB_CONTROLLER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29F5736A1EB2500200E6D264 /* Build configuration list for PBXNativeTarget "EV3_1_TAB_CONTROLLER" */;
+			buildPhases = (
+				29F5733E1EB2500200E6D264 /* Sources */,
+				29F5733F1EB2500200E6D264 /* Frameworks */,
+				29F573401EB2500200E6D264 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EV3_1_TAB_CONTROLLER;
+			productName = EV3_1_TAB_CONTROLLER;
+			productReference = 29F573421EB2500200E6D264 /* EV3_1_TAB_CONTROLLER.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29F573551EB2500200E6D264 /* EV3_1_TAB_CONTROLLERTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29F5736D1EB2500200E6D264 /* Build configuration list for PBXNativeTarget "EV3_1_TAB_CONTROLLERTests" */;
+			buildPhases = (
+				29F573521EB2500200E6D264 /* Sources */,
+				29F573531EB2500200E6D264 /* Frameworks */,
+				29F573541EB2500200E6D264 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29F573581EB2500200E6D264 /* PBXTargetDependency */,
+			);
+			name = EV3_1_TAB_CONTROLLERTests;
+			productName = EV3_1_TAB_CONTROLLERTests;
+			productReference = 29F573561EB2500200E6D264 /* EV3_1_TAB_CONTROLLERTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		29F573601EB2500200E6D264 /* EV3_1_TAB_CONTROLLERUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29F573701EB2500200E6D264 /* Build configuration list for PBXNativeTarget "EV3_1_TAB_CONTROLLERUITests" */;
+			buildPhases = (
+				29F5735D1EB2500200E6D264 /* Sources */,
+				29F5735E1EB2500200E6D264 /* Frameworks */,
+				29F5735F1EB2500200E6D264 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29F573631EB2500200E6D264 /* PBXTargetDependency */,
+			);
+			name = EV3_1_TAB_CONTROLLERUITests;
+			productName = EV3_1_TAB_CONTROLLERUITests;
+			productReference = 29F573611EB2500200E6D264 /* EV3_1_TAB_CONTROLLERUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29F5733A1EB2500200E6D264 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "JOSE CARLOS";
+				TargetAttributes = {
+					29F573411EB2500200E6D264 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					29F573551EB2500200E6D264 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 29F573411EB2500200E6D264;
+					};
+					29F573601EB2500200E6D264 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 29F573411EB2500200E6D264;
+					};
+				};
+			};
+			buildConfigurationList = 29F5733D1EB2500200E6D264 /* Build configuration list for PBXProject "EV3_1_TAB_CONTROLLER" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29F573391EB2500200E6D264;
+			productRefGroup = 29F573431EB2500200E6D264 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29F573411EB2500200E6D264 /* EV3_1_TAB_CONTROLLER */,
+				29F573551EB2500200E6D264 /* EV3_1_TAB_CONTROLLERTests */,
+				29F573601EB2500200E6D264 /* EV3_1_TAB_CONTROLLERUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29F573401EB2500200E6D264 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29F573501EB2500200E6D264 /* LaunchScreen.storyboard in Resources */,
+				29F5734D1EB2500200E6D264 /* Assets.xcassets in Resources */,
+				29F5734B1EB2500200E6D264 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29F573541EB2500200E6D264 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29F5735F1EB2500200E6D264 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29F5733E1EB2500200E6D264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29F573481EB2500200E6D264 /* ViewController.swift in Sources */,
+				29F573461EB2500200E6D264 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29F573521EB2500200E6D264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29F5735B1EB2500200E6D264 /* EV3_1_TAB_CONTROLLERTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29F5735D1EB2500200E6D264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29F573661EB2500200E6D264 /* EV3_1_TAB_CONTROLLERUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29F573581EB2500200E6D264 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29F573411EB2500200E6D264 /* EV3_1_TAB_CONTROLLER */;
+			targetProxy = 29F573571EB2500200E6D264 /* PBXContainerItemProxy */;
+		};
+		29F573631EB2500200E6D264 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29F573411EB2500200E6D264 /* EV3_1_TAB_CONTROLLER */;
+			targetProxy = 29F573621EB2500200E6D264 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		29F573491EB2500200E6D264 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29F5734A1EB2500200E6D264 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29F5734E1EB2500200E6D264 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29F5734F1EB2500200E6D264 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29F573681EB2500200E6D264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29F573691EB2500200E6D264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29F5736B1EB2500200E6D264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EV3_1_TAB_CONTROLLER/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jose.EV3-1-TAB-CONTROLLER";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		29F5736C1EB2500200E6D264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EV3_1_TAB_CONTROLLER/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jose.EV3-1-TAB-CONTROLLER";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		29F5736E1EB2500200E6D264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EV3_1_TAB_CONTROLLERTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jose.EV3-1-TAB-CONTROLLERTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EV3_1_TAB_CONTROLLER.app/EV3_1_TAB_CONTROLLER";
+			};
+			name = Debug;
+		};
+		29F5736F1EB2500200E6D264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EV3_1_TAB_CONTROLLERTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jose.EV3-1-TAB-CONTROLLERTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EV3_1_TAB_CONTROLLER.app/EV3_1_TAB_CONTROLLER";
+			};
+			name = Release;
+		};
+		29F573711EB2500200E6D264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EV3_1_TAB_CONTROLLERUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jose.EV3-1-TAB-CONTROLLERUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EV3_1_TAB_CONTROLLER;
+			};
+			name = Debug;
+		};
+		29F573721EB2500200E6D264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EV3_1_TAB_CONTROLLERUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jose.EV3-1-TAB-CONTROLLERUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EV3_1_TAB_CONTROLLER;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29F5733D1EB2500200E6D264 /* Build configuration list for PBXProject "EV3_1_TAB_CONTROLLER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29F573681EB2500200E6D264 /* Debug */,
+				29F573691EB2500200E6D264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29F5736A1EB2500200E6D264 /* Build configuration list for PBXNativeTarget "EV3_1_TAB_CONTROLLER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29F5736B1EB2500200E6D264 /* Debug */,
+				29F5736C1EB2500200E6D264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		29F5736D1EB2500200E6D264 /* Build configuration list for PBXNativeTarget "EV3_1_TAB_CONTROLLERTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29F5736E1EB2500200E6D264 /* Debug */,
+				29F5736F1EB2500200E6D264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		29F573701EB2500200E6D264 /* Build configuration list for PBXNativeTarget "EV3_1_TAB_CONTROLLERUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29F573711EB2500200E6D264 /* Debug */,
+				29F573721EB2500200E6D264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29F5733A1EB2500200E6D264 /* Project object */;
+}
