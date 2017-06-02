@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="EVA3_5_PERSISTENCIA" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zuc-0L-WaB" colorLabel="IBBuiltInLabel-Blue">
+                                <rect key="frame" x="20" y="51" width="560" height="30"/>
+                                <color key="backgroundColor" red="0.2475214053" green="0.63015915140000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NAI-m0-kXx">
+                                <rect key="frame" x="20" y="110" width="84" height="30"/>
+                                <state key="normal" title="GUARDAR"/>
+                                <connections>
+                                    <action selector="btnGuard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mtt-oL-uoE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="amv-lZ-M15">
+                                <rect key="frame" x="20" y="156" width="84" height="30"/>
+                                <state key="normal" title="LEER"/>
+                                <connections>
+                                    <action selector="btnLeer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DkK-Co-3aU"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0QA-IV-Vn1">
+                                <rect key="frame" x="279" y="289" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="NAI-m0-kXx" firstAttribute="top" secondItem="zuc-0L-WaB" secondAttribute="bottom" constant="29" id="7hr-Cr-2cj"/>
+                            <constraint firstItem="zuc-0L-WaB" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="31" id="9u1-pF-Y7h"/>
+                            <constraint firstItem="0QA-IV-Vn1" firstAttribute="top" secondItem="amv-lZ-M15" secondAttribute="bottom" constant="103" id="O12-76-gug"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="zuc-0L-WaB" secondAttribute="trailing" id="U51-E0-zNv"/>
+                            <constraint firstItem="amv-lZ-M15" firstAttribute="top" secondItem="NAI-m0-kXx" secondAttribute="bottom" constant="16" id="X5G-oL-ZiV"/>
+                            <constraint firstItem="zuc-0L-WaB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aA2-nL-jij"/>
+                            <constraint firstItem="0QA-IV-Vn1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cmD-da-t5L"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="zuc-0L-WaB" secondAttribute="leading" id="gvG-cd-zgG"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="lblMostrar" destination="0QA-IV-Vn1" id="atd-Qh-hdx"/>
+                        <outlet property="txtFldDatos" destination="zuc-0L-WaB" id="3Nw-X3-Mo8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="418"/>
+        </scene>
+    </scenes>
+</document>
