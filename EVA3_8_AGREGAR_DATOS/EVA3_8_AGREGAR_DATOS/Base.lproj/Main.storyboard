@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="EVA3_8_AGREGAR_DATOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MOQ-Un-GA5">
+                                <rect key="frame" x="20" y="30" width="438" height="30"/>
+                                <color key="backgroundColor" red="0.61894829557572617" green="0.87463896956730558" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Axo-Rj-Lc4">
+                                <rect key="frame" x="20" y="81" width="560" height="519"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="celda" id="Mir-b7-V3D">
+                                        <rect key="frame" x="0.0" y="28" width="560" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Mir-b7-V3D" id="irq-Aa-6bk">
+                                            <rect key="frame" x="0.0" y="0.0" width="560" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="ktg-bm-1qW"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="Om6-sG-Wup"/>
+                                </connections>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pna-Fw-d27">
+                                <rect key="frame" x="479" y="29" width="79" height="30"/>
+                                <state key="normal" title="CAPTURAR"/>
+                                <connections>
+                                    <action selector="capturaDatos:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eGx-gO-ckH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="MOQ-Un-GA5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="3ME-w1-v4E"/>
+                            <constraint firstItem="pna-Fw-d27" firstAttribute="leading" secondItem="MOQ-Un-GA5" secondAttribute="trailing" constant="21" id="5YI-CP-xgm"/>
+                            <constraint firstItem="Axo-Rj-Lc4" firstAttribute="top" secondItem="MOQ-Un-GA5" secondAttribute="bottom" constant="21" id="7sV-vs-s94"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="pna-Fw-d27" secondAttribute="trailing" constant="22" id="H5K-XL-LPi"/>
+                            <constraint firstItem="MOQ-Un-GA5" firstAttribute="baseline" secondItem="pna-Fw-d27" secondAttribute="baseline" id="L4h-53-Xlb"/>
+                            <constraint firstItem="Axo-Rj-Lc4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="N3x-Fm-4xe"/>
+                            <constraint firstItem="MOQ-Un-GA5" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="UWG-DO-cOu"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Axo-Rj-Lc4" secondAttribute="bottom" id="Yde-wb-7mn"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="MOQ-Un-GA5" secondAttribute="leading" id="aac-su-bdA"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Axo-Rj-Lc4" secondAttribute="trailing" id="ukB-Os-f19"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="txtFldDatos" destination="MOQ-Un-GA5" id="TZE-zZ-vAh"/>
+                        <outlet property="txtVLista" destination="Axo-Rj-Lc4" id="Q9c-lv-Veh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="440" y="398"/>
+        </scene>
+    </scenes>
+</document>
